@@ -7,7 +7,7 @@ updatedDate: "Sep 15 2022"
 pricing: "$15"
 badge: "Featured"
 checkoutUrl: "https://checkouturl.com/"
-heroImage: "/itemPreview.webp"
+heroImage: "/portfolio/itemPreview.webp"
 ---
 
 This project was completed as part of a team engineering challenge to design a CubeSAT that could support NASA's Artemis mission. Our goal was to create a satellite capable of taking images of the lunar south pole and processing those images onboard to identify terrain that would be safe for a lunar rover.
