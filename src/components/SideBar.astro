@@ -9,13 +9,17 @@ const base = import.meta.env.BASE_URL;
 <div class="drawer-side z-40">
   <label for="my-drawer" class="drawer-overlay"></label>
 
-  <aside class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col">
+  <aside
+    class="px-2 pt-2 h-auto min-h-full w-[19rem] bg-base-200 text-base-content flex flex-col"
+  >
     <div class="w-fit mx-auto mt-5 mb-6">
       <a href={base}>
-        <div class="avatar transition ease-in-out hover:scale-[102%] block m-auto">
+        <div
+          class="avatar transition ease-in-out hover:scale-[102%] block m-auto"
+        >
           <div class="w-[8.5rem]">
             <img
-              class="mask mask-circle"
+              class="mask mask-circle w-full h-full object-cover"
               width="300"
               height="300"
               src={`${base}IMG_1959.JPG`}
